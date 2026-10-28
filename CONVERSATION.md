@@ -38,3 +38,21 @@ def shout(text: str) -> str:
 ```
 
 What is the exact name of the method that changes a string to uppercase?
+
+---
+## 2026-10-28 09:05, in .
+
+**Me:** what is > in python?
+
+**Tutor:**
+
+Comparison operator that checks if the value on the left is greater than the value on the right.
+
+```python
+# Example: comparing two numbers
+a = 10
+b = 5
+result = a > b  # TODO: What will result be?
+```
+
+What is the result of `result` in this example?
