@@ -130,3 +130,25 @@ print("New list from sorted():", new_sorted)
 ```
 
 Which function returns a new list instead of modifying the original?
+
+---
+## 2026-10-28 09:36, in .
+
+**Me:** “Why is the get method useful when working with dictionaries in Python?”
+
+**Tutor:**
+
+The concept is: safely retrieve a value from a dictionary without raising a KeyError.
+
+```python
+# Toy data
+product_prices = {"apple": 1.20, "banana": 0.50}
+
+# TODO: Use the get method to retrieve the price of "orange"
+# If the key is missing, return 0.0 instead of raising an error
+price = product_prices.get(____, ____)
+
+print(price)  # Should print 0.0
+```
+
+What is the second argument of the get method used for?

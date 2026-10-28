@@ -23,35 +23,42 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. My object, my five fields, and why those:
+# 1. In: Information about a marketing campaign.
+# 2. Process: Read, modify, add and remove information.
+# 3. Out: Display the campaign information.
+# 4. My object, my five fields, and why those: My object is a luxury marketing campaign.
+# Fields: name, brand, budget, city, platform.
+# These help identify and organize the campaign.
 
 
 # Your code below
 
-name = "Lea"
-age = 24
-city = "Paris"
+campaign = {
+    "name": "Summer Campaign",
+    "brand": "Tiffany",
+    "budget": 5000,
+    "city": "Paris",
+    "platform": "Instagram"}
 
+# Read the dictionary
+print("The dictionary is:", campaign)
 
-person = { "name":"Lea",
-           "age": 24, 
-           "city": "Paris" }
+# Read one field
+print("Brand:", campaign["brand"])
 
-# printing the dictionary
-print("The dictionary is :", person)
+# Add a field
+campaign["year"] = 2026
 
-# adding a value inside the dictionary
-person["occupation"] = "Student"
+# Remove a field
+campaign.pop("city")
 
-# the dictionary after adding the value or item
-print("The dictionary after adding the occupation:", person)
+# Display every field and its value
+for key, value in campaign.items():
+    print(key, ":", value)
 
-# removing the city from the dictionary
-city = person.pop("city")
+# Test a field that does not exist
+print(campaign.get("country", "Not found"))
 
-print("The dictionary after removing the city:", person)
-print("The city removed is", city)
-
+# Check:
+# Using campaign["country"] gives a KeyError.
+# Using .get() displays "Not found" without stopping the program.
