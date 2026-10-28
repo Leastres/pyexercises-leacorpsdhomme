@@ -322,3 +322,18 @@ print(numbers)  # TODO: What will this print?
 ```
 
 Which argument can you pass to `sort()` to change the order to descending?
+
+---
+## 2026-10-28 12:25, in .
+
+**Me:** how use print ?
+
+**Tutor:**
+
+Printing a value or text in Python.
+
+```python
+# TODO: print the text "Hello, world!"
+```
+
+What does the `print()` function take as its argument?

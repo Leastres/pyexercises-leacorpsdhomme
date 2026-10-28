@@ -29,17 +29,17 @@ DELIVERABLE
 
 
 # Your code below
-print("1. Sugumaran")
-print("2. Sugumaran")
-print("3. Sugumaran")
-print("4. Sugumaran")
-print("5. Sugumaran")
+print("1. Lea")
+print("2. Lea")
+print("3. Lea")
+print("4. Lea")
+print("5. Lea")
 
 
 print("Printing with for loop")
 
 for number in range(1,6):
-    print(number, "Sugumaran")
+    print(number, "Lea")
 
 
 
