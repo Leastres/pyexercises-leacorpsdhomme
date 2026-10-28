@@ -35,7 +35,7 @@ DELIVERABLE
 
 campaign = {
     "name": "Summer Campaign",
-    "brand": "Tiffany",
+    "brand": "Cartier",
     "budget": 5000,
     "city": "Paris",
     "platform": "Instagram"}
