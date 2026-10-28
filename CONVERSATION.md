@@ -56,3 +56,19 @@ result = a > b  # TODO: What will result be?
 ```
 
 What is the result of `result` in this example?
+
+---
+## 2026-10-28 09:12, in .
+
+**Me:** how remove the first item from the list
+
+**Tutor:**
+
+Removing the first item from a list.
+
+```python
+my_list = [10, 20, 30, 40]
+# TODO: remove the first item
+```
+
+What method removes the first element of a list?

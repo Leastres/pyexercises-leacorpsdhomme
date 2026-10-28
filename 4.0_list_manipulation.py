@@ -26,10 +26,10 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What my list is about, and what I computed from it:
+# 1. In: A list of 8 marketing campaign budgets.
+# 2. Process: Display the list, select one budget, sort the list and calculate the total.
+# 3. Out: The list, one budget, the sorted list and the total.
+# 4. What my list is about, and what I computed from it: My list contains marketing campaign budgets in euros. I calculated the total to know the overall marketing spending.
 
 
 # Your code below
