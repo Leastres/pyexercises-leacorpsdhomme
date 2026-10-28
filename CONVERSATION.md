@@ -337,3 +337,25 @@ Printing a value or text in Python.
 ```
 
 What does the `print()` function take as its argument?
+
+---
+## 2026-10-28 12:29, in .
+
+**Me:** what is input?
+
+**Tutor:**
+
+Input is how a program receives data from the user while it is running.
+
+```python
+def get_user_name():
+    # TODO: use input() to ask the user for their name
+    # TODO: store the result in a variable called user_name
+    return user_name
+
+# Example call
+name = get_user_name()
+print("Hello", name)
+```
+
+What is the first argument you pass to the print() function in the example?
