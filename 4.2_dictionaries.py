@@ -31,20 +31,20 @@ DELIVERABLE
 
 # Your code below
 
-name = "Sugumaran"
-age = 50
+name = "Lea"
+age = 24
 city = "Paris"
 
 
-person = { "name":"Sugumaran",
-           "age": 50, 
+person = { "name":"Lea",
+           "age": 24, 
            "city": "Paris" }
 
 # printing the dictionary
 print("The dictionary is :", person)
 
 # adding a value inside the dictionary
-person["occupation"] = "Engineer"
+person["occupation"] = "Student"
 
 # the dictionary after adding the value or item
 print("The dictionary after adding the occupation:", person)

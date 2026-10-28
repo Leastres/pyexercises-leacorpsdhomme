@@ -21,3 +21,20 @@ for num in numbers:
 ```
 
 What is the keyword used to start a for loop in Python?
+
+---
+## 2026-10-28 08:50, in .
+
+**Me:** What is upper in python?
+
+**Tutor:**
+
+The `upper()` method converts all letters in a string to uppercase.
+
+```python
+def shout(text: str) -> str:
+    # TODO: return text with every letter in uppercase
+    return text
+```
+
+What is the exact name of the method that changes a string to uppercase?
