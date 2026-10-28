@@ -39,14 +39,23 @@ DELIVERABLE
 
 # Your code below
 
-budgets = [1000, 2000, 1500, 3000, 2500, 4000, 3500, 5000]
+# Make the original list from Exercise 4.0
+list_of_numbers = [10, 9, 1, 7, 8, 6, 2, 3, 4, 5]
 
-print("Original order:", budgets)
+# Make copies and reorder them
+ascending = list_of_numbers.copy()
+ascending.sort()
 
-print("Ascending order:", sorted(budgets))
+descending = sorted(list_of_numbers, reverse=True)
 
-print("Descending order:", sorted(budgets, reverse=True))
+backwards = list_of_numbers.copy()
+backwards.reverse()
 
-print("Reversed order:", budgets[::-1])
+# Display the list in four different orders
+print("Original order:", list_of_numbers)
+print("Ascending order:", ascending)
+print("Descending order:", descending)
+print("Backwards order:", backwards)
 
-print("Original list at the end:", budgets)
+# Display the original list again to check it stayed unchanged
+print("Original list at the end:", list_of_numbers)
