@@ -58,4 +58,4 @@ print("Number of attempts:", i)
 
 # Check:
 # After 5 invalid answers, the loop stops.
-# " YES " is accepted as "yes".
+# " YES " is accepted as "Yes".
