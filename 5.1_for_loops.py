@@ -24,20 +24,21 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In: A list of 10 numbers from exercise 4.0.
-# 2. Process: CCalculate the double of each number.
-# 3. Out: Display each number, its position and its double.
-# 4. What I compute for each item, and why it is worth showing: I calculate the double of each number to compare the original value with its double.
+# 1. In: A list of 8 marketing campaign budgets.
+# 2. Process: Calculate 10% of each budget.
+# 3. Out: Display each budget, its position and 10%.
+# 4. What I compute for each item, and why it is worth showing:I calculate 10% to estimate advertising spending.
 
 
 # Your code below
 
-list_of_numbers = [10, 9, 1, 7, 8, 6, 2, 3, 4, 5]
+budgets = [1000, 2000, 1500, 3000, 2500, 4000, 3500, 5000]
 
 position = 1
 
-for number in list_of_numbers:
-    print("Position:", position, "Number:", number, "Double:", number * 2)
+for budget in budgets:
+    print("Position:", position, "Budget:", budget, "10%:", budget * 0.10)
     position = position + 1
 
-# Check: 10 numbers = 10 lines printed.
+# Check:
+# 8 budgets = 8 lines printed.
