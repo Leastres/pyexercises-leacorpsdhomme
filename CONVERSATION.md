@@ -199,3 +199,19 @@ while True:
 ```
 
 What does the break statement stop: the loop or the program?
+
+---
+## 2026-10-28 10:03, in .
+
+**Me:** What is the purpose of print in Python?
+
+**Tutor:**
+
+Printing values is how you display text or variables on the screen.
+
+```python
+# TODO: print the string "Hello, world!"
+print()
+```
+
+What is the first argument of the print function?
