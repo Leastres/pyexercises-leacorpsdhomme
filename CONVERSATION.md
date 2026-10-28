@@ -359,3 +359,28 @@ print("Hello", name)
 ```
 
 What is the first argument you pass to the print() function in the example?
+
+---
+## 2026-10-28 12:35, in .
+
+**Me:** can i use title?
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-10-28 12:36, in .
+
+**Me:** what is strip?
+
+**Tutor:**
+
+The string method that removes leading and trailing whitespace.
+
+```python
+text = "  hello  "
+clean = text.strip()  # TODO: what is stored in clean?
+```
+
+What function removes whitespace from both ends of a string?
