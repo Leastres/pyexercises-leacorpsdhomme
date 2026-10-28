@@ -304,3 +304,21 @@ print(42)
 ```
 
 What is the first argument of the `print()` function?
+
+---
+## 2026-10-28 10:36, in .
+
+**Me:** What does the sort method do to my list in exercise 4.1?
+
+**Tutor:**
+
+The sort method changes the order of the items in a list to ascending by default.
+
+```python
+# Sorting a list of numbers
+numbers = [3, 1, 4, 2]
+numbers.sort()  # TODO: What happens to the list after this line?
+print(numbers)  # TODO: What will this print?
+```
+
+Which argument can you pass to `sort()` to change the order to descending?

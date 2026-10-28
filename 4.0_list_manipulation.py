@@ -33,23 +33,34 @@ DELIVERABLE
 
 
 # Your code below
-# Make the original list from Exercise 4.0
+
+# Store four numbers in separate variables
+number_1 = 2
+number_2 = 3
+number_3 = 4
+number_4 = 5
+
+# Display the four numbers
+print(number_1)
+print(number_2)
+print(number_3)
+print(number_4)
+
+# Create and display a list of ten numbers
 list_of_numbers = [10, 9, 1, 7, 8, 6, 2, 3, 4, 5]
+print("Listing all the numbers in the list")
+print(list_of_numbers)
 
-# Make copies and reorder them
-ascending = list_of_numbers.copy()
-ascending.sort()
+# Display the third item in the list
+print("Listing the third item in the list")
+print(list_of_numbers[2])
 
-descending = sorted(list_of_numbers, reverse=True)
+# Sort and display the list
+print("The list of numbers after sorting")
+list_of_numbers.sort()
+print(list_of_numbers)
 
-backwards = list_of_numbers.copy()
-backwards.reverse()
-
-# Display the list in four different orders
-print("Original order:", list_of_numbers)
-print("Ascending order:", ascending)
-print("Descending order:", descending)
-print("Backwards order:", backwards)
-
-# Display the original list again to check it stayed unchanged
-print("Original list at the end:", list_of_numbers)
+# Remove and display the last item
+list_of_numbers.pop()
+print("The list after removing the last item")
+print(list_of_numbers)
