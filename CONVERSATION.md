@@ -384,3 +384,21 @@ clean = text.strip()  # TODO: what is stored in clean?
 ```
 
 What function removes whitespace from both ends of a string?
+
+---
+## 2026-10-28 12:41, in .
+
+**Me:** “What does != 0 mean in my if statement?”
+
+**Tutor:**
+
+Comparison operator.
+`!=` means “is not equal to.”
+
+```python
+# TODO: decide what to do when the value is not zero
+if clicks != 0:
+    ctr = conversions / clicks
+```
+
+Which built-in function returns the number of rows in a CSV file?
