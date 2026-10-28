@@ -72,3 +72,61 @@ my_list = [10, 20, 30, 40]
 ```
 
 What method removes the first element of a list?
+
+---
+## 2026-10-28 09:20, in .
+
+**Me:** can i use negative budgets list?
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-10-28 09:21, in .
+
+**Me:** how reverse false?
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-10-28 09:21, in .
+
+**Me:** how much number can i have in a list?
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-10-28 09:22, in .
+
+**Me:** What is the difference between sorted() and .sort()?
+
+**Tutor:**
+
+Sorting a list in place versus returning a new list.
+
+- `sorted()` returns a new sorted list and leaves the original unchanged.
+- `.sort()` sorts the list in place and returns `None`.
+
+Pattern:
+
+```python
+# TODO: create a list of numbers
+numbers = [3, 1, 4]
+
+# TODO: use sorted() to create a new sorted list
+new_sorted = sorted(numbers)
+
+# TODO: use .sort() to sort the original list in place
+numbers.sort()
+
+# TODO: print both to see the difference
+print("Original after .sort():", numbers)
+print("New list from sorted():", new_sorted)
+```
+
+Which function returns a new list instead of modifying the original?
