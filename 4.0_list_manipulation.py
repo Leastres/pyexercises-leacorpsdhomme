@@ -34,33 +34,25 @@ DELIVERABLE
 
 # Your code below
 
-# Store four numbers in separate variables
-number_1 = 2
-number_2 = 3
-number_3 = 4
-number_4 = 5
+budgets = [1000, 2000, 1500, 3000, 2500, 4000, 3500, 5000]
 
-# Display the four numbers
-print(number_1)
-print(number_2)
-print(number_3)
-print(number_4)
+# Display the whole list
+print("Listing all budgets")
+print(budgets)
 
-# Create and display a list of ten numbers
-list_of_numbers = [10, 9, 1, 7, 8, 6, 2, 3, 4, 5]
-print("Listing all the numbers in the list")
-print(list_of_numbers)
+# Display the third item
+print("The third budget:")
+print(budgets[2])
 
-# Display the third item in the list
-print("Listing the third item in the list")
-print(list_of_numbers[2])
+# Sort the list
+print("The budgets after sorting")
+budgets.sort()
+print(budgets)
 
-# Sort and display the list
-print("The list of numbers after sorting")
-list_of_numbers.sort()
-print(list_of_numbers)
+# Calculate the total
+print("Total budget:", sum(budgets))
 
-# Remove and display the last item
-list_of_numbers.pop()
-print("The list after removing the last item")
-print(list_of_numbers)
+# Check:
+# First 3 budgets: 1000 + 2000 + 1500 = 4500
+# Python gives 4500 for these three budgets.
+# Total of all 8 budgets = 22500 euros.
