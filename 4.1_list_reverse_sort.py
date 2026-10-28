@@ -29,33 +29,31 @@ DELIVERABLE
 # 2. Process: Display the list in four different orders.
 # 3. Out: Four reordered lists and the original list.
 # 4. My four orders, and which ones modify the original:
-# Original order: No modification.
-# Ascending order: Creates a new sorted list.
-# Descending order: Creates a new sorted list.
-# Reversed order: Creates a new reversed list.
-# None of these operations modify the original list.
-
+# Original: No modification.
+# Ascending: Sorts a copy.
+# Descending: Creates a new sorted list.
+# Backwards: Reverses a copy.
+# The original list is never modified.
 
 
 # Your code below
 
-# Make the original list from Exercise 4.0
-list_of_numbers = [10, 9, 1, 7, 8, 6, 2, 3, 4, 5]
+budgets = [1000, 2000, 1500, 3000, 2500, 4000, 3500, 5000]
 
 # Make copies and reorder them
-ascending = list_of_numbers.copy()
+ascending = budgets.copy()
 ascending.sort()
 
-descending = sorted(list_of_numbers, reverse=True)
+descending = sorted(budgets, reverse=True)
 
-backwards = list_of_numbers.copy()
+backwards = budgets.copy()
 backwards.reverse()
 
-# Display the list in four different orders
-print("Original order:", list_of_numbers)
+# Display the four orders
+print("Original order:", budgets)
 print("Ascending order:", ascending)
 print("Descending order:", descending)
 print("Backwards order:", backwards)
 
-# Display the original list again to check it stayed unchanged
-print("Original list at the end:", list_of_numbers)
+# Check the original list
+print("Original list at the end:", budgets)

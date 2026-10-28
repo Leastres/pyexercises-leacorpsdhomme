@@ -468,3 +468,30 @@ print(item)
 ```
 
 Which built-in function do you use to get the length of a list?
+
+---
+## 2026-10-28 13:00, in .
+
+**Me:** What is the difference between sort() and sorted()?
+
+**Tutor:**
+
+The difference between `sort()` and `sorted()`.
+
+- `sort()` is a method that sorts a list in place and returns None.
+- `sorted()` is a function that returns a new sorted list from any iterable.
+
+Pattern on toy data:
+
+```python
+# TODO: toy list of numbers
+numbers = [3, 1, 4, 1, 5]
+
+# TODO: sort the list in place
+numbers.sort()
+
+# TODO: create a new sorted list from the same numbers
+new_list = sorted(numbers)
+```
+
+Which function returns a new list instead of modifying the original?
