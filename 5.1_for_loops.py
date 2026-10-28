@@ -35,7 +35,6 @@ DELIVERABLE
 budgets = [1000, 2000, 1500, 3000, 2500, 4000, 3500, 5000]
 
 position = 1
-
 for budget in budgets:
     print("Position:", position, "Budget:", budget, "10%:", budget * 0.10)
     position = position + 1
