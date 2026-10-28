@@ -179,3 +179,23 @@ print(position)  # should print 1
 ```
 
 What built-in function can you use instead to do the same thing in one step?
+
+---
+## 2026-10-28 09:54, in .
+
+**Me:** “What does break do inside my while loop?”
+
+**Tutor:**
+
+A break statement exits the innermost loop immediately.
+
+```python
+while True:
+    print("still running")
+    user_input = input("Type 'stop' to quit: ")
+    if user_input == "stop":
+        break   # TODO: what happens here?
+    print("loop continues")
+```
+
+What does the break statement stop: the loop or the program?
