@@ -24,18 +24,21 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out:
-# 4. What I compute for each item, and why it is worth showing:
+# 1. In: A list of 8 marketing budgets.
+# 2. Process: Calculate 10% of each budget.
+# 3. Out: Display each budget, its position and 10%.
+# 4. What I compute for each item, and why it is worth showing: I calculate 10% to estimate advertising spending.
 
 
 # Your code below
-names = ["Alice", "Bob", "Trump", "John", "Mickey", "Wick", "Tom", "Jerry"]
 
-print("The third item in the list", names[2])
+budgets = [1000, 2000, 1500, 3000, 2500, 4000, 3500, 5000]
 
-for name in names:
-    print("Hello, " + name + ", How are you!")
+position = 1
 
+for budget in budgets:
+    print("Position:", position, "Budget:", budget, "10%:", budget * 0.10)
+    position = position + 1
+
+# Check: 8 budgets = 8 lines printed.
 
