@@ -908,3 +908,24 @@ def helper(value):
 What is the name of the function that main() calls?
 
 *Cut by the tutor: One function per answer. The next one is yours to write.*
+
+---
+## 2026-11-17 16:08, in .
+
+**Me:** how do I add new data to a csv file without deleting the old data
+
+**Tutor:**
+
+Appending to a CSV file without overwriting is done by opening the file in append mode.
+
+```python
+import csv
+
+# Open the file in append mode ('a')
+with open('data.csv', 'a', newline='') as file:
+    writer = csv.writer(file)
+    # TODO: add your new row here, e.g. ['gamma', 300]
+    writer.writerow( ??? )
+```
+
+What mode must you use with `open()` to add data instead of replacing it?
