@@ -968,3 +968,20 @@ def are_strings_equal(str1, str2):
 ```
 
 What does the function return when you call `are_strings_equal("hello", "hello")`?
+
+---
+## 2026-11-17 16:42, in .
+
+**Me:** how do I check if a permission bit is set in Python
+
+**Tutor:**
+
+Checking a permission bit in Python is done with the bitwise AND operator.
+
+```python
+def is_readable(permissions):
+    # TODO: return True if the 'read' bit is set in permissions
+    return permissions & 0o400 != 0
+```
+
+What argument does the bitwise AND operator (`&`) take in this function?
