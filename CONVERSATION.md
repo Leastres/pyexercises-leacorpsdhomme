@@ -951,3 +951,20 @@ sorted_names = sorted(names)          # returns a new sorted list
 ```
 
 Question: what is the difference between `sorted(names)` and `names.sort()`?
+
+---
+## 2026-11-17 16:37, in .
+
+**Me:** how do I compare two strings in Python
+
+**Tutor:**
+
+Comparing two strings in Python is done with the equality operator `==`.
+
+```python
+def are_strings_equal(str1, str2):
+    # TODO: return True if str1 and str2 are the same, False otherwise
+    pass
+```
+
+What does the function return when you call `are_strings_equal("hello", "hello")`?
