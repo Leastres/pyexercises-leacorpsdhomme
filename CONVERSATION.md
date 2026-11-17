@@ -985,3 +985,26 @@ def is_readable(permissions):
 ```
 
 What argument does the bitwise AND operator (`&`) take in this function?
+
+---
+## 2026-11-17 16:49, in .
+
+**Me:** how do I handle ZeroDivisionError in Python
+
+**Tutor:**
+
+ZeroDivisionError happens when you try to divide a number by zero.
+
+To handle it, wrap the risky division in a try-except block and decide what to return or do when it occurs.
+
+```python
+def safe_divide(numerator, denominator):
+    try:
+        result = numerator / denominator
+        return result
+    except ZeroDivisionError:
+        # TODO: decide what to return when denominator is zero
+        return None
+```
+
+What value do you want the function to return when the denominator is zero?
