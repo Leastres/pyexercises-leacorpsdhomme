@@ -617,3 +617,12 @@ for fruit in ["apple", "banana", "cherry"]:
 ```
 
 What loop control keyword stops the current iteration and moves to the next one?
+
+---
+## 2026-11-17 12:31, in .
+
+**Me:** check
+
+**Tutor:**
+
+Refused, off topic.
