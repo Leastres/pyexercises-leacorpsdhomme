@@ -626,3 +626,132 @@ What loop control keyword stops the current iteration and moves to the next one?
 **Tutor:**
 
 Refused, off topic.
+
+---
+## 2026-11-17 15:26, in .
+
+**Me:** Why do we use random.shuffle() in my game?
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-11-17 15:26, in .
+
+**Me:** Why do we use append mode when saving results.csv?
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-11-17 15:27, in .
+
+**Me:** Why do we use random.shuffle(scenarios) in my game?
+
+**Tutor:**
+
+Refused, off topic.
+
+---
+## 2026-11-17 15:27, in .
+
+**Me:** What does random.shuffle do?
+
+**Tutor:**
+
+`random.shuffle` changes the order of items inside a list so that they appear in a random sequence.
+
+```python
+import random
+
+# TODO: create a small list of numbers
+toy_list = [3, 1, 4, 1, 5]
+
+# TODO: call random.shuffle on that list
+random.shuffle(toy_list)
+
+# TODO: print the list to see the new order
+print(toy_list)
+```
+
+Which argument does `random.shuffle` take?
+
+---
+## 2026-11-17 15:27, in .
+
+**Me:** What does break do?
+
+**Tutor:**
+
+A loop control statement that stops the loop immediately and moves to the next line after the loop.
+
+```python
+# Loop control with break
+for fruit in ["apple", "banana", "cherry"]:
+    if fruit == "banana":
+        break   # TODO: What happens to the loop when this runs?
+    print(fruit)
+```
+
+What keyword stops a loop and exits it right away?
+
+---
+## 2026-11-17 15:28, in .
+
+**Me:** What does return do?
+
+**Tutor:**
+
+Returning a value from a function.
+
+```python
+def add_two_numbers(a, b):
+    result = a + b
+    return result
+
+# TODO: call the function with two numbers and print what it returns
+```
+
+What does the `return` statement hand back to the caller?
+
+---
+## 2026-11-17 15:28, in .
+
+**Me:** What does csv.reader do?
+
+**Tutor:**
+
+csv.reader is a function that reads a CSV file line by line and returns each row as a list of strings.
+
+```python
+import csv
+
+# Toy data: a small CSV with two rows
+toy_csv = """name,clicks,impressions
+alpha,120,1200
+beta,80,800"""
+
+# TODO: open the string as a file-like object and read it with csv.reader
+# TODO: print the first row after the header
+```
+
+What argument does csv.reader expect to receive?
+
+---
+## 2026-11-17 15:28, in .
+
+**Me:** What does append mean in Python?
+
+**Tutor:**
+
+Appending means adding an item to the end of a list.
+
+```python
+# List concept: append adds one item at a time
+marketing_tools = ["Google Ads", "Meta Ads"]
+marketing_tools.append("LinkedIn Ads")  # TODO: what is the argument of append?
+```
+
+What is the single argument that the append method takes?

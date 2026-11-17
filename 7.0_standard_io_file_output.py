@@ -29,10 +29,14 @@ DELIVERABLE
     This file, plus the CSV your program produced.
 """
 
-# 1. In:
-# 2. Process:
-# 3. Out, file name and columns:
-# 4. Why these columns, and what this file is for:
+# 1. In: Information about a client event registration.
+# 2. Process: Collect the information and save it in a CSV file.
+# 3. Out, file name and columns: A file called 7.0_event_data.csv with four columns:
+# First Name, Last Name, Event Date, Number of Guests.
+# 4. Why these columns, and what this file is for: These columns help organize luxury event registrations.
+# With 200 entries, I could manage the guest list and plan the event.
+# The header is added only when the file is new.
+# Empty answers are not accepted.
 
 
 # Your code below
