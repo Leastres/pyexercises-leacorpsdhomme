@@ -887,3 +887,24 @@ def read_semicolon_csv(file_path):
 ```
 
 Which argument of `csv.reader` controls the delimiter?
+
+---
+## 2026-11-17 15:56, in .
+
+**Me:** how do I use one function inside another function
+
+**Tutor:**
+
+A function can call another function by writing its name followed by parentheses.
+
+```python
+def helper(value):
+    # TODO: return the value squared
+    pass
+
+# --- cut by the tutor: One function per answer. The next one is yours to write ---
+```
+
+What is the name of the function that main() calls?
+
+*Cut by the tutor: One function per answer. The next one is yours to write.*
