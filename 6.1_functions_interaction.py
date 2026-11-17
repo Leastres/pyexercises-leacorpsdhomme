@@ -28,10 +28,15 @@ DELIVERABLE
     This file, with your comments and your code.
 """
 
-# 1. In:
+# 1. In: A number.
 # 2. Process, function by function:
-# 3. Out:
-# 4. The question my fourth function answers:
+# is_positive checks if the number is positive.
+# is_negative checks if the number is negative.
+# is_zero checks if the number is zero.
+# detailed_message uses these functions to describe the number.
+# 3. Out: A message describing the number.
+# 4. The question my fourth function answers: The fourth function answers whether the number is positive,
+# negative or zero. Small functions are easier to test separately.
 
 
 # Your code below
