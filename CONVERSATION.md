@@ -929,3 +929,25 @@ with open('data.csv', 'a', newline='') as file:
 ```
 
 What mode must you use with `open()` to add data instead of replacing it?
+
+---
+## 2026-11-17 16:24, in .
+
+**Me:** how do I sort a list of names in Python
+
+**Tutor:**
+
+Sorting a list of names is done with the built-in `sorted()` function or the `list.sort()` method.
+
+Pattern on toy data:
+
+```python
+# TODO: replace the list below with your own list of names
+names = ["beta", "alpha", "gamma"]
+
+# TODO: choose one of the two lines below
+sorted_names = sorted(names)          # returns a new sorted list
+# names.sort()                        # sorts the list in place, returns None
+```
+
+Question: what is the difference between `sorted(names)` and `names.sort()`?
