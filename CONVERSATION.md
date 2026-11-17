@@ -1008,3 +1008,32 @@ def safe_divide(numerator, denominator):
 ```
 
 What value do you want the function to return when the denominator is zero?
+
+---
+## 2026-11-17 17:00, in .
+
+**Me:** how do I validate user input with regular expressions in Python
+
+**Tutor:**
+
+Validating user input with regular expressions.
+
+Pattern:
+```python
+import re
+
+def validate_email(text: str) -> bool:
+    """
+    TODO: replace the pattern so it matches a valid email address.
+    """
+    pattern = r"TODO"
+    return bool(re.fullmatch(pattern, text))
+
+# toy example
+alpha = "alice@example.com"
+beta  = "not-an-email"
+print(validate_email(alpha))  # True
+print(validate_email(beta))   # False
+```
+
+What does `re.fullmatch` return when the pattern matches?
